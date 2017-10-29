@@ -24,6 +24,9 @@ $(document).ready(function(){
     $('.invis').removeClass('none');
   });
   scrolled();
+  $(function() {
+    $(".owl-carousel").owlCarousel();
+  });
 });
 
 $(document).scroll(function scrolled(){
